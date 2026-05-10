@@ -10,7 +10,7 @@ import org.slf4j.LoggerFactory;
 
 import java.io.IOException;
 
-@WebServlet(urlPatterns = "/login.do")
+//@WebServlet(urlPatterns = "/login.do")
 public class LoginServlet extends HttpServlet {
     private static final Logger log = LoggerFactory.getLogger(LoginServlet.class);
     private final UserValidationService service = new UserValidationService();
