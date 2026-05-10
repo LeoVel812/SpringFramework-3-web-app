@@ -8,8 +8,8 @@ import org.springframework.web.bind.annotation.ResponseBody;
 public class LoginController {
 
     @RequestMapping(value = "/login")
-    @ResponseBody
+//    @ResponseBody//when there is no return body nor where to redirect
     public String hello() {
-        return "Hello there!!";
+        return "login";
     }
 }
