@@ -15,7 +15,7 @@ public class LoginServlet extends HttpServlet {
         try (PrintWriter out = response.getWriter()) {
             out.println("<html>");
             out.println("<head>");
-            out.println("<title>yeik!!!!!!!!</title>");
+            out.println("<title>Yeah!!!!!!</title>");
             out.println("</head>");
             out.println("<body>");
             out.println("My First Servlet");
