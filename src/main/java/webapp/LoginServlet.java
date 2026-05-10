@@ -19,6 +19,7 @@ public class LoginServlet extends HttpServlet {
         String name = request.getParameter("name");
         log.info("Parameter name: {}", name);
         request.setAttribute("name", name);
+        request.setAttribute("password", request.getParameter("password"));
 
         response.setContentType("text/html");
         request.getRequestDispatcher("/WEB-INF/views/login.jsp").forward(request, response);

@@ -7,6 +7,6 @@
  %>
 </head>
 <body>
-My First JSP ${name}!!!
+My First JSP ${name} and password: ${password}!!!
 </body>
 </html>
