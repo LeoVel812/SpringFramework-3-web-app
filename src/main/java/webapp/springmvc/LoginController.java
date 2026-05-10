@@ -10,7 +10,11 @@ import webapp.UserValidationService;
 
 @Controller
 public class LoginController {
-    final UserValidationService service = new UserValidationService();
+    final UserValidationService service;
+
+    public LoginController(UserValidationService service) {
+        this.service = service;
+    }
 
     @RequestMapping(value = "/login", method = RequestMethod.GET)
 //    @ResponseBody//when there is no return body nor where to redirect
